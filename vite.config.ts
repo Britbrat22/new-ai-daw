@@ -1,13 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react-swc';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  server: { host: '::', port: 8080 },
+  base: "/new-ai-daw/",
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@': new URL('./src', import.meta.url).pathname,
-    },
-  },
 });
