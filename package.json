@@ -6,10 +6,10 @@
   "description": "AI-powered web-based Digital Audio Workstation",
   "author": "britbrat22",
   "license": "MIT",
-  "homepage": "https://britbrat22.github.io/soundforge-ai",
+  "homepage": "https://britbrat22.github.io/new-ai-daw",
   "repository": {
     "type": "git",
-    "url": "https://github.com/britbrat22/soundforge-ai.git"
+    "url": "https://github.com/britbrat22/new-ai-daw.git"
   },
   "scripts": {
     "dev": "vite",
