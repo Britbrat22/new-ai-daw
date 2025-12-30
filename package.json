@@ -1,0 +1,31 @@
+{
+  "name": "new-ai-daw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britbrat22/new-ai-daw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Britbrat22/new-ai-daw/issues"
+  },
+  "homepage": "https://github.com/Britbrat22/new-ai-daw#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
